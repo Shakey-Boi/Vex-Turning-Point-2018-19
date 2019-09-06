@@ -1,0 +1,10 @@
+using namespace vex;
+brain Brain;
+motor RightTransmission1 = motor(PORT1);
+motor RightTransmission2 = motor(PORT2, true);
+motor RightFront = motor(PORT3);
+motor LeftTransmission1 = motor(PORT4, true);
+motor LeftTransmission2 = motor(PORT5);
+motor LeftFront = motor(PORT6, true);
+motor Intake = motor(PORT7);
+controller ControllerMain = controller();
